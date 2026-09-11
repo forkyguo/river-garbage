@@ -1,0 +1,11 @@
+# FloW-Img — river garbage detection (single class, nc=1)
+# Template shipped with the paper companion. Change `path` to your local copy.
+# Used by: yolo11s.yaml, yolo11s-flow-glare.yaml, yolo11s-tea8*.yaml,
+#          r2/yolov8s-flow.yaml
+path: /path/to/flow-img-yolo
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: bottle

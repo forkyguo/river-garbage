@@ -1,0 +1,12 @@
+# fenGeHe — river-surface instance segmentation (nc=1)
+# Roboflow YOLOv8 segmentation export layout: the validation directory is
+# `valid/`, not `val/`. Change `path` to your local copy.
+# Used by: seg-yolo11s-baseline.yaml, seg-yolo11s-wtg.yaml,
+#          r2/yolov8s-seg-fengehe.yaml
+path: /path/to/fenGeHe.yolov8
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+  0: river    # replace with the class name used by the original release

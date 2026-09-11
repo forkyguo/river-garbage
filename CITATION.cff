@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use the code, models, configuration files or protocol in this
+  repository, please cite the paper and this artifact.
+
+# TODO: replace the placeholder metadata below with the camera-ready values.
+title: "TEA8-based oriented perception of river garbage"
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    # GitHub handle of the repository owner: @forkyguo
+repository-code: "https://github.com/forkyguo/river-garbage"
+url: "https://github.com/forkyguo/river-garbage"
+abstract: >-
+  Reference models, network configuration files, training logs, released
+  checkpoints and the experimental protocol for TEA8 / GLE / WTG based river
+  garbage detection and segmentation.
+keywords:
+  - river garbage detection
+  - YOLO11
+  - edge attention
+  - glare augmentation
+  - instance segmentation
+  - ablation study
+license: AGPL-3.0-only
+
+# preferred-citation:
+#   type: article
+#   title: "TODO: camera-ready paper title"
+#   authors:
+#     - family-names: "TODO"
+#       given-names: "TODO"
+#   journal: "TODO"
+#   year: 2026
+#   doi: "TODO"
